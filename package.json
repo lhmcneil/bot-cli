@@ -1,0 +1,12 @@
+{
+  "name": "createbotsubscriber",
+  "version": "1.0.0",
+  "description": "Creates bot subscribers on staging and production environments, using the local config files for bot parameters",
+  "main": "index.js",
+  "bin": { "botcli": "./index.js" },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "=luke.mcneil@palringo.com",
+  "license": "ISC"
+}
