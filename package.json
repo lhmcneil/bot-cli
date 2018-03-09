@@ -3,10 +3,23 @@
   "version": "1.0.0",
   "description": "Creates bot subscribers on staging and production environments, using the local config files for bot parameters",
   "main": "index.js",
-  "bin": { "botcli": "./index.js" },
+  "bin": {
+    "botcli": "./index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "=luke.mcneil@palringo.com",
-  "license": "ISC"
+  "author": "luke.mcneil@palringo.com",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "request": "^2.83.0",
+    "request-promise": "^4.2.2"
+  },
+  "devDependencies": {
+    "eslint": "4.9.0",
+    "eslint-plugin-classes": "0.1.1",
+    "eslint-plugin-promise": "3.6.0",
+    "jsdoc": "3.5.5"
+  }
 }
