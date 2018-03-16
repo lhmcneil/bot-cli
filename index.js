@@ -1,5 +1,3 @@
-console.log('HELLO WORLD');
-
 const fileHandler = require('./src/fileHandler');
 const request = require('request-promise');
 

@@ -4,7 +4,7 @@
   "description": "Creates bot subscribers on staging and production environments, using the local config files for bot parameters",
   "main": "index.js",
   "bin": {
-    "botcli": "./index.js"
+    "register-bot": "./index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -13,7 +13,6 @@
   "license": "ISC",
   "dependencies": {
     "bluebird": "^3.5.1",
-    "request": "^2.83.0",
     "request-promise": "^4.2.2"
   },
   "devDependencies": {
